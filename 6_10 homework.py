@@ -27,21 +27,21 @@
 # print(sayyora(["Mercury", "Venus", "Earth", "Mars", "Asteroid", "Jupiter", "Saturn", "Uranus", "Neptune", "Asteroid", "Pluto"]))
 
 # 2-usul
-def sayyora(a):
-    ord = ["Asteroid", "Pluto", "Mercury", "Mars", "Venus", "Earth", "Neptune", "Uranus", "Saturn", "Jupiter"]
+# def sayyora(a):
+#     ord = ["Asteroid", "Pluto", "Mercury", "Mars", "Venus", "Earth", "Neptune", "Uranus", "Saturn", "Jupiter"]
 
-    if not a:
-        return []
+#     if not a:
+#         return []
     
-    result = []
-    for i in range(len(a)):
-        if a == "Asteroid":
-            result.append("=")
-        elif ord.index(a[i]) > ord.index(a[i - 1]):
-            result.append(">")
-        else:
-            result.append("<")
-    return result
-print(sayyora(["Mars", "Asteroid", "Venus", "Jupiter", "Asteroid", "Earth", "Pluto"]))
-print(sayyora(["Asteroid", "Asteroid", "Asteroid", "Earth", "Jupiter"]))
-print(sayyora(["Mercury", "Venus", "Earth", "Mars", "Asteroid", "Jupiter", "Saturn", "Uranus", "Neptune", "Asteroid", "Pluto"]))
+#     result = []
+#     for i in range(len(a)):
+#         if a == "Asteroid":
+#             result.append("=")
+#         elif ord.index(a[i]) > ord.index(a[i - 1]):
+#             result.append(">")
+#         else:
+#             result.append("<")
+#     return result
+# print(sayyora(["Mars", "Asteroid", "Venus", "Jupiter", "Asteroid", "Earth", "Pluto"]))
+# print(sayyora(["Asteroid", "Asteroid", "Asteroid", "Earth", "Jupiter"]))
+# print(sayyora(["Mercury", "Venus", "Earth", "Mars", "Asteroid", "Jupiter", "Saturn", "Uranus", "Neptune", "Asteroid", "Pluto"]))
